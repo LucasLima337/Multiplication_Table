@@ -39,16 +39,19 @@ input#n1 {
     width: 150px;
     height: 60px;
     font:normal 50px arial;
+    border-radius: 50px;
 }
 input#oi {
     height: 40px;
     width: 100px;
+    border-radius: 50px;
+    background-color: rgb(245, 182, 10);
 }
 footer#tit {
     text-align: center;
     padding: 4px;
     margin: auto;
-    margin-top: 1px;
+    margin-top: 30px;
     border-radius: 30px;
     width: 100px;
     background-color: black;
