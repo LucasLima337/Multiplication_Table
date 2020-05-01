@@ -44,3 +44,13 @@ input#oi {
     height: 40px;
     width: 100px;
 }
+footer#tit {
+    text-align: center;
+    padding: 4px;
+    margin: auto;
+    margin-top: 1px;
+    border-radius: 30px;
+    width: 100px;
+    background-color: black;
+    color: rgb(214, 144, 15);
+}
