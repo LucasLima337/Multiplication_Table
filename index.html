@@ -7,22 +7,24 @@
     <link rel="stylesheet" href="estilo/style.css">
 </head>
 <body>
-    <h1>TABUADA</h1>
-    <div id='d'>Digite um número inteiro no campo abaixo para ver a sua tabuada:</div>
-    <input type="number" name="txtn1" id="n1">
-    <input id='oi' type="button" value="Ver Tabuada" onclick='clicar()'>
-    <br><br>--------------------------
-    <div id='d1' onmouseenter='cores()' onmouseout='normal()'>{X} x {X} = {X}</div>
-    <div id='d2' onmouseenter='cores()' onmouseout='normal()'>{X} x {X} = {X}</div>
-    <div id='d3' onmouseenter='cores()' onmouseout='normal()'>{X} x {X} = {X}</div>
-    <div id='d4' onmouseenter='cores()' onmouseout='normal()'>{X} x {X} = {X}</div>
-    <div id='d5' onmouseenter='cores()' onmouseout='normal()'>{X} x {X} = {X}</div>
-    <div id='d6' onmouseenter='cores()' onmouseout='normal()'>{X} x {X} = {X}</div>
-    <div id='d7' onmouseenter='cores()' onmouseout='normal()'>{X} x {X} = {X}</div>
-    <div id='d8' onmouseenter='cores()' onmouseout='normal()'>{X} x {X} = {X}</div>
-    <div id='d9' onmouseenter='cores()' onmouseout='normal()'>{X} x {X} = {X}</div>
-    <div id='d0' onmouseenter='cores()' onmouseout='normal()'>{X} x {X} = {X}</div>
-    --------------------------
+    <header>
+        <h1>Tabuada</h1>
+    </header>
+    <section id='sec'>
+        <h2 id='d'>Digite um número inteiro no campo abaixo para ver a sua tabuada</h2>
+        <input type="number" name="txtn1" id="n1">
+        <input id='oi' type="button" value="Ver Tabuada" onclick='clicar()'>
+        <div id='d1' onmouseout='normal()'>{X} x {X} = {X}</div>
+        <div id='d2' onmouseout='normal()'>{X} x {X} = {X}</div>
+        <div id='d3' onmouseout='normal()'>{X} x {X} = {X}</div>
+        <div id='d4' onmouseout='normal()'>{X} x {X} = {X}</div>
+        <div id='d5' onmouseout='normal()'>{X} x {X} = {X}</div>
+        <div id='d6' onmouseout='normal()'>{X} x {X} = {X}</div>
+        <div id='d7' onmouseout='normal()'>{X} x {X} = {X}</div>
+        <div id='d8' onmouseout='normal()'>{X} x {X} = {X}</div>
+        <div id='d9' onmouseout='normal()'>{X} x {X} = {X}</div>
+        <div id='d0' onmouseout='normal()'>{X} x {X} = {X}</div>
+    </section>
     <script src="js/script.js"></script>
 </body>
 </html>
