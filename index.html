@@ -1,31 +1,33 @@
 <!DOCTYPE html>
 <html lang='pt-br'>
-<head>
-    <meta charset='UTF-8'>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabuada</title>
-    <link rel="stylesheet" href="estilo/style.css">
-</head>
-<body>
-    <header>
-        <h1>Tabuada</h1>
-    </header>
-    <section id='sec'>
-        <h2 id='d'>Digite um número inteiro no campo abaixo para ver a sua tabuada</h2>
-        <input type="number" name="txtn1" id="n1">
-        <input id='oi' type="button" value="Ver Tabuada" onclick='clicar()'>
-        <div id='d1' onmouseout='normal()'>{X} x {X} = {X}</div>
-        <div id='d2' onmouseout='normal()'>{X} x {X} = {X}</div>
-        <div id='d3' onmouseout='normal()'>{X} x {X} = {X}</div>
-        <div id='d4' onmouseout='normal()'>{X} x {X} = {X}</div>
-        <div id='d5' onmouseout='normal()'>{X} x {X} = {X}</div>
-        <div id='d6' onmouseout='normal()'>{X} x {X} = {X}</div>
-        <div id='d7' onmouseout='normal()'>{X} x {X} = {X}</div>
-        <div id='d8' onmouseout='normal()'>{X} x {X} = {X}</div>
-        <div id='d9' onmouseout='normal()'>{X} x {X} = {X}</div>
-        <div id='d0' onmouseout='normal()'>{X} x {X} = {X}</div>
-    </section>
-    <footer id='tit'><strong>&copy; TITAN</strong></footer>
-    <script src="js/script.js"></script>
-</body>
+    <head>
+        <meta charset="utf-8">
+        <title>Tabuada</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <section>
+            <header>
+                <h1>Tabuada</h1>
+            </header>
+            <main>
+               <section id='sec1'>
+                    <div id='div1'>
+                        <p>Número:</p> 
+                        <input type="number" name="" id="num">
+                    </div>
+                    <div id='div2'>
+                        <button id='but'>Gerar Tabuada</button>
+                    </div>
+               </section>
+               <section id='sec2'>
+                    <div id='tab'>
+
+                    </div>
+               </section>
+            </main>
+            <footer><a href="https://titanci.com.br/" target="_blank">&copy; TITAN</a></footer>
+        </section>
+        <script src="js/script.js"></script>
+    </body>
 </html>
