@@ -1,24 +1,22 @@
-var x1 = window.document.querySelector('div#d1')
-var x2 = window.document.querySelector('div#d2')
-var x3 = window.document.querySelector('div#d3')
-var x4 = window.document.querySelector('div#d4')
-var x5 = window.document.querySelector('div#d5')
-var x6 = window.document.querySelector('div#d6')
-var x7 = window.document.querySelector('div#d7')
-var x8 = window.document.querySelector('div#d8')
-var x9 = window.document.querySelector('div#d9')
-var x0 = window.document.querySelector('div#d0')
+var button = window.document.querySelector('button#but')
+button.addEventListener('click', clicar)
+
 function clicar(){
-    var n = window.document.getElementById('n1')
-    var num = Number.parseInt(n.value)
-    x1.innerHTML = `${num} x ${1} = ${num * 1}`
-    x2.innerHTML = `${num} x ${2} = ${num * 2}`
-    x3.innerHTML = `${num} x ${3} = ${num * 3}`
-    x4.innerHTML = `${num} x ${4} = ${num * 4}`
-    x5.innerHTML = `${num} x ${5} = ${num * 5}`
-    x6.innerHTML = `${num} x ${6} = ${num * 6}`
-    x7.innerHTML = `${num} x ${7} = ${num * 7}`
-    x8.innerHTML = `${num} x ${8} = ${num * 8}`
-    x9.innerHTML = `${num} x ${9} = ${num * 9}`
-    x0.innerHTML = `${num} x ${10} = ${num * 10}`
+    var numtxt = window.document.querySelector('input#num')
+    var num = Number.parseInt(numtxt.value)
+
+    if(numtxt.value == ''){
+        window.alert('Preencha o campo abaixo para realizar a operação!')
+    }
+    else{
+        var sec2 = window.document.querySelector('section#sec2')
+        var tab = window.document.querySelector('div#tab')
+        var i = 1
+        sec2.style.padding = '20px'
+        tab.innerHTML = ''
+        while(i <= 10){
+            tab.innerHTML += `${num} x ${i} = ${num * i}<br>`
+            i += 1
+        }
+    }
 }
