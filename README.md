@@ -1,5 +1,5 @@
-# Tabuada 🖩
-#### Acesse a Tabuada [clicando aqui](https://lucaslima337.github.io/Tabuada/)!
+# Multiplication Table 🖩
+#### Acesse a Tabuada [click here](https://lucaslima337.github.io/Multiplication_Table/)!
  ---
  Página web criada com as seguintes tecnologias:
  * HTML
