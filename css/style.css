@@ -1,0 +1,79 @@
+body {
+    background-color: lightslategrey;
+    font-family: 'Lobster', cursive;
+}
+header {
+    text-align: center;
+    font-size: 18pt;
+    color: white;
+}
+main {
+    font-size: 17pt;
+    background-color: rgb(57, 88, 64);
+    margin: auto;
+    width: 800px;
+    border-radius: 20px;
+}
+#sec1 {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+}
+#div1 {
+    display: flex;
+    align-items: center;
+}
+#num {
+    font-size: 17pt;
+    margin-left: 15px;
+    width: 80px;
+    height: 30px;
+    padding: 4px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+#div1 p {
+    color: lightslategrey;
+    font-weight: bold;
+}
+button {
+    font-size: 17pt;
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: lightslategrey;
+    color: white;
+    cursor: pointer;
+    box-shadow: 2px 3px 20px #F2A900;
+}
+button:hover {
+    background-color: teal;
+    transition: 400ms;
+}
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
+footer a {
+    text-decoration: none;
+    color: #F2A900;
+    font-weight: bold;
+}
+#sec2 {
+    background-color: white;
+    width: 300px;
+    margin: auto;
+    border-radius: 20px;
+}
+#tab {
+    text-align: center;
+    margin: auto;
+}
+footer a:hover {
+    text-decoration: underline;
+}
