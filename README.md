@@ -1,7 +1,7 @@
 # Multiplication Table 🖩
-#### View the Webpage [clicking here](https://lucaslima337.github.io/Multiplication_Table/)!
+#### View the Website [here](https://lucaslima337.github.io/Multiplication_Table/)!
  ---
- Página web criada com as seguintes tecnologias:
+ Webpage created using the following technologies:
  * HTML
  * CSS
  * JS
